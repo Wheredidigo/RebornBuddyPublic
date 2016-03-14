@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Runtime.CompilerServices;
-using System.Runtime.Remoting.Channels;
 using EatMe.Gui;
 using EatMe.Logic;
 using EatMe.Utilities;
@@ -55,6 +54,7 @@ namespace EatMe
             TreeRoot.OnStop += OnBotStop;
             TreeHooks.Instance.OnHooksCleared += OnHooksCleared;
 
+            //You only want to add the hook immediately when the plugin is enabled if the TreeRoot is currently running.
             if (TreeRoot.IsRunning)
             {
                 AddHooks();
