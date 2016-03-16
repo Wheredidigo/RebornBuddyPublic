@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EatMeWpf", "EatMeWpf\EatMeWpf.csproj", "{A33627F8-ABBD-4A30-9B76-CB6D5EF2C6AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Loader", "Loader\Loader.csproj", "{060A4AB1-C42D-46ED-9EBB-4E7274A496D1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A33627F8-ABBD-4A30-9B76-CB6D5EF2C6AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A33627F8-ABBD-4A30-9B76-CB6D5EF2C6AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A33627F8-ABBD-4A30-9B76-CB6D5EF2C6AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A33627F8-ABBD-4A30-9B76-CB6D5EF2C6AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{060A4AB1-C42D-46ED-9EBB-4E7274A496D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{060A4AB1-C42D-46ED-9EBB-4E7274A496D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{060A4AB1-C42D-46ED-9EBB-4E7274A496D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{060A4AB1-C42D-46ED-9EBB-4E7274A496D1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
