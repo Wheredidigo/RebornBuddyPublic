@@ -28,9 +28,9 @@ namespace Loader
             {
                 LoadPlugin();
             }
-            if (Plugin != null && InjectedOnInitialize != null)
+            if (Plugin != null)
             {
-                InjectedOnInitialize.Invoke(Plugin, null);
+                InjectedOnInitialize?.Invoke(Plugin, null);
             }
         }
 
@@ -40,9 +40,9 @@ namespace Loader
             {
                 LoadPlugin();
             }
-            if (Plugin != null && InjectedOnEnabled != null)
+            if (Plugin != null)
             {
-                InjectedOnEnabled.Invoke(Plugin, null);
+                InjectedOnEnabled?.Invoke(Plugin, null);
             }
         }
 
@@ -52,9 +52,9 @@ namespace Loader
             {
                 LoadPlugin();
             }
-            if (Plugin != null && InjectedOnDisabled != null)
+            if (Plugin != null)
             {
-                InjectedOnDisabled.Invoke(Plugin, null);
+                InjectedOnDisabled?.Invoke(Plugin, null);
             }
         }
 
@@ -64,9 +64,9 @@ namespace Loader
             {
                 LoadPlugin();
             }
-            if (Plugin != null && InjectedOnButtonPress != null)
+            if (Plugin != null)
             {
-                InjectedOnButtonPress.Invoke(Plugin, null);
+                InjectedOnButtonPress?.Invoke(Plugin, null);
             }
         }
 
@@ -268,7 +268,7 @@ namespace Loader
 
         private static void Log(string message)
         {
-            Logging.Write(Colors.Cyan, string.Format("[Eat Me] {0}", message));
+            Logging.Write(Colors.Cyan, $"[Eat Me] {message}");
         }
 
         private static void RedirectAssembly()
