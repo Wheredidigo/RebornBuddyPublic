@@ -34,7 +34,7 @@
     <Reference Include="PresentationCore" />
     <Reference Include="PresentationFramework" />
     <Reference Include="RebornBuddy">
-      <HintPath>..\..\..\..\RebornBuddy64\RebornBuddy.exe</HintPath>
+      <HintPath>..\..\..\..\RebornBuddy\RebornBuddy.exe</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />

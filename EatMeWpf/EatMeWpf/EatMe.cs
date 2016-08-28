@@ -163,7 +163,7 @@ namespace EatMeWpf
         /// </summary>
         private void RemoveHooks([CallerMemberName] string methodName = null)
         {
-            Logger.Log($"{methodName} was called. Adding Hooks now!");
+            Logger.Log($"{methodName} was called. Removing Hooks now!");
             foreach (var logic in Logic)
             {
                 TreeHooks.Instance.RemoveHook("TreeStart", logic.Execute);

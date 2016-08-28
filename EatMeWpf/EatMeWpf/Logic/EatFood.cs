@@ -14,7 +14,7 @@ namespace EatMeWpf.Logic
         /// <summary>
         ///     Return true if we do not have the "Well Fed" buff
         /// </summary>
-        protected override bool NeedToStart => Core.Me.HasAura(48);
+        protected override bool NeedToStart => !Core.Me.HasAura(48);
 
         /// <summary>
         ///     Logic for eating food from our Inventory
